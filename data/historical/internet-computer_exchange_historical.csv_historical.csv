@@ -1,0 +1,16 @@
+date,exchange,base,target,volume,last_price,bid_ask_spread,crypto_id,crypto_name
+2025-11-13,binance,ICP,USDT,16880377.95,6.395,0.015625,internet-computer,Internet Computer
+2025-11-13,coinbase exchange,ICP,USD,6693804.981,6.398,0.04686,internet-computer,Internet Computer
+2025-11-13,binance,ICP,USDC,2193096.37,6.378,0.031402,internet-computer,Internet Computer
+2025-11-13,kraken,ICP,USD,2145060.67946816,6.361,0.078321,internet-computer,Internet Computer
+2025-11-13,binance,ICP,BTC,511789.68,6.29e-05,0.158983,internet-computer,Internet Computer
+2025-11-13,kraken,ICP,EUR,256409.14684624,5.503,0.090728,internet-computer,Internet Computer
+2025-11-13,binance,ICP,TRY,294374.369,270.2,0.148423,internet-computer,Internet Computer
+2025-11-13,coinbase exchange,ICP,EUR,51946.3427,5.495,0.072608,internet-computer,Internet Computer
+2025-11-13,binance,ICP,ETH,112293.687,0.001871,0.214018,internet-computer,Internet Computer
+2025-11-13,coinbase exchange,ICP,GBP,38703.9449,4.851,0.082203,internet-computer,Internet Computer
+2025-11-13,coinbase exchange,ICP,USDT,42296.6469,6.371,0.10958,internet-computer,Internet Computer
+2025-11-13,binance,ICP,EUR,45419.08,5.5,0.289908,internet-computer,Internet Computer
+2025-11-13,binance us,ICP,USDT,23642.37049342105,6.384,0.733229,internet-computer,Internet Computer
+2025-11-13,coinbase exchange,ICP,BTC,10671.7525,6.26e-05,0.476948,internet-computer,Internet Computer
+2025-11-13,binance us,ICP,USD,3929.468060824581,6.379,0.328793,internet-computer,Internet Computer

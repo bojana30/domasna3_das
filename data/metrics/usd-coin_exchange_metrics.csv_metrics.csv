@@ -1,0 +1,23 @@
+date,exchange,crypto_id,crypto_name,last_price,volume,bid_ask_spread_percentage,trust_score,trade_url
+2025-11-13,binance,usd-coin,USDC,101544.48,4874.79282,0.01001,green,https://www.binance.com/en/trade/BTC_USDC?ref=37754157
+2025-11-13,binance,usd-coin,USDC,3409.89,138862.1933,0.010293,green,https://www.binance.com/en/trade/ETH_USDC?ref=37754157
+2025-11-13,binance,usd-coin,USDC,153.11,1153309.124,0.016531,green,https://www.binance.com/en/trade/SOL_USDC?ref=37754157
+2025-11-13,binance,usd-coin,USDC,2.3863,46099129.8,0.01419,green,https://www.binance.com/en/trade/XRP_USDC?ref=37754157
+2025-11-13,kraken,usd-coin,USDC,0.9998,56528514.93280969,0.010002,green,https://pro.kraken.com/app/trade/USDC-USD
+2025-11-13,binance,usd-coin,USDC,953.14,39190.062,0.011049,green,https://www.binance.com/en/trade/BNB_USDC?ref=37754157
+2025-11-13,binance,usd-coin,USDC,1.9651,25958629.6,0.015088,green,https://www.binance.com/en/trade/SUI_USDC?ref=37754157
+2025-11-13,kraken,usd-coin,USDC,101590.11,153.47230175,0.01001,green,https://pro.kraken.com/app/trade/XBT-USDC
+2025-11-13,binance,usd-coin,USDC,97.49,158729.053,0.010257,green,https://www.binance.com/en/trade/LTC_USDC?ref=37754157
+2025-11-13,binance,usd-coin,USDC,0.16994,94155931.0,0.015882,green,https://www.binance.com/en/trade/DOGE_USDC?ref=37754157
+2025-11-13,binance,usd-coin,USDC,0.5449,33511768.6,0.018352,green,https://www.binance.com/en/trade/ADA_USDC?ref=37754157
+2025-11-13,binance,usd-coin,USDC,0.17381,90843665.0,0.015752,green,https://www.binance.com/en/trade/HBAR_USDC?ref=37754157
+2025-11-13,kraken,usd-coin,USDC,3406.55,2189.47606841,0.010293,green,https://pro.kraken.com/app/trade/ETH-USDC
+2025-11-13,binance,usd-coin,USDC,348.0,63017.0464,0.028686,green,https://www.binance.com/en/trade/TAO_USDC?ref=37754157
+2025-11-13,binance,usd-coin,USDC,15.14,2399735.49,0.066007,green,https://www.binance.com/en/trade/LINK_USDC?ref=37754157
+2025-11-13,binance,usd-coin,USDC,6.374,2191696.77,0.031368,green,https://www.binance.com/en/trade/ICP_USDC?ref=37754157
+2025-11-13,binance,usd-coin,USDC,7.472,755848.7,0.013383,green,https://www.binance.com/en/trade/TRUMP_USDC?ref=37754157
+2025-11-13,binance,usd-coin,USDC,7.568,1336810.89,0.026431,green,https://www.binance.com/en/trade/UNI_USDC?ref=37754157
+2025-11-13,binance,usd-coin,USDC,508.0,49439.508,0.068956,green,https://www.binance.com/en/trade/ZEC_USDC?ref=37754157
+2025-11-13,coinbase exchange,usd-coin,USDC,1.1589,4414520.0,0.018629,green,https://www.coinbase.com/advanced-trade/spot/EURC-USDC
+2025-11-13,binance,usd-coin,USDC,0.014305,283278132.0,0.013966,green,https://www.binance.com/en/trade/PENGU_USDC?ref=37754157
+2025-11-13,binance,usd-coin,USDC,0.003914,1952590680.0,0.025549,green,https://www.binance.com/en/trade/PUMP_USDC?ref=37754157

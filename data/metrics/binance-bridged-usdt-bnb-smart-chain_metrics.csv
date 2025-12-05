@@ -1,0 +1,3 @@
+date,price,volume_24h,high_24h,low_24h,market_cap,exchanges
+2025-11-27,0.999834,1166195701,1.0,0.998718,8984309402,"['Uniswap V3 (BSC)', 'PancakeSwap V3 (BSC)', 'Aster', 'Pancakeswap Infinity CLMM (BSC)', 'Uniswap V4 (BSC)']"
+2025-12-05,0.999989,1231136399,1.002,0.998615,8987004125,[]

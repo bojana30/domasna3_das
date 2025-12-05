@@ -1,0 +1,4 @@
+date,exchange,crypto_id,crypto_name,last_price,volume,bid_ask_spread_percentage,trust_score,trade_url
+2025-11-13,coinbase exchange,usds,USDS,0.9996,45594.93,0.06003,yellow,https://www.coinbase.com/advanced-trade/spot/USDS-USD
+2025-11-13,kraken,usds,USDS,0.99999,7618.29619175,1.119011,yellow,https://pro.kraken.com/app/trade/USDS-USD
+2025-11-13,kraken,usds,USDS,0.8401,5.0,10.52172,,https://pro.kraken.com/app/trade/USDS-EUR

@@ -1,0 +1,15 @@
+date,exchange,crypto_id,crypto_name,last_price,volume,bid_ask_spread_percentage,trust_score,trade_url
+2025-11-13,coinbase exchange,stellar,Stellar,0.27752,37260825.86578318,0.015129,green,https://www.coinbase.com/advanced-trade/spot/XLM-USD
+2025-11-13,binance,stellar,Stellar,0.2777,50119030.0,0.03601,green,https://www.binance.com/en/trade/XLM_USDT?ref=37754157
+2025-11-13,binance,stellar,Stellar,0.2778,11708307.0,0.03601,green,https://www.binance.com/en/trade/XLM_USDC?ref=37754157
+2025-11-13,binance,stellar,Stellar,8.135e-05,506403.0,0.024576,green,https://www.binance.com/en/trade/XLM_ETH?ref=37754157
+2025-11-13,binance,stellar,Stellar,0.2396,588325.0,0.041719,green,https://www.binance.com/en/trade/XLM_EUR?ref=37754157
+2025-11-13,coinbase exchange,stellar,Stellar,0.23945,398579.0,0.035051,green,https://www.coinbase.com/advanced-trade/spot/XLM-EUR
+2025-11-13,binance,stellar,Stellar,11.74,538334.0,0.051068,green,https://www.binance.com/en/trade/XLM_TRY?ref=37754157
+2025-11-13,binance,stellar,Stellar,0.2775,492711.0,0.071788,green,https://www.binance.com/en/trade/XLM_FDUSD?ref=37754157
+2025-11-13,binance us,stellar,Stellar,0.2771,128108.47816672681,0.396396,green,https://www.binance.us/trade/pro/XLM_USDT
+2025-11-13,binance us,stellar,Stellar,0.2772,17829.045815295816,0.57554,green,https://www.binance.us/trade/pro/XLM_USD
+2025-11-13,kraken,stellar,Stellar,0.277655,4249955.26781308,0.027734,yellow,https://pro.kraken.com/app/trade/XLM-USD
+2025-11-13,kraken,stellar,Stellar,0.239066,848776.04416898,0.063837,yellow,https://pro.kraken.com/app/trade/XLM-EUR
+2025-11-13,binance,stellar,Stellar,42.96,210479.5,0.092851,yellow,https://www.binance.com/en/trade/XLM_JPY?ref=37754157
+2025-11-13,binance,stellar,Stellar,2.73e-06,1002722.0,0.364964,yellow,https://www.binance.com/en/trade/XLM_BTC?ref=37754157

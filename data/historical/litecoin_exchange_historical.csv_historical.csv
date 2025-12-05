@@ -1,0 +1,16 @@
+date,exchange,base,target,volume,last_price,bid_ask_spread,crypto_id,crypto_name
+2025-11-13,binance,LTC,USDT,1173757.07,97.59,0.010247,litecoin,Litecoin
+2025-11-13,coinbase exchange,LTC,USD,376287.7921891,97.47,0.020519,litecoin,Litecoin
+2025-11-13,kraken,LTC,USD,77352.04951365,97.55,0.010248,litecoin,Litecoin
+2025-11-13,binance,LTC,USDC,158820.3,97.62,0.020486,litecoin,Litecoin
+2025-11-13,binance,LTC,EUR,12195.246,84.24,0.011872,litecoin,Litecoin
+2025-11-13,coinbase exchange,LTC,EUR,24683.1713094,84.24,0.035617,litecoin,Litecoin
+2025-11-13,binance,LTC,FDUSD,12862.058,97.72,0.051078,litecoin,Litecoin
+2025-11-13,binance,LTC,TRY,9554.503,4130.0,0.048438,litecoin,Litecoin
+2025-11-13,binance,LTC,BTC,17784.157,0.000961,0.104167,litecoin,Litecoin
+2025-11-13,binance,LTC,ETH,7429.627,0.02861,0.069906,litecoin,Litecoin
+2025-11-13,coinbase exchange,LTC,GBP,3984.29087039,74.29,0.040393,litecoin,Litecoin
+2025-11-13,binance,LTC,JPY,1861.112,15140.0,0.033051,litecoin,Litecoin
+2025-11-13,kraken,LTC,USDC,3365.16710916,97.826,0.100355,litecoin,Litecoin
+2025-11-13,kraken,LTC,GBP,2389.93176679,74.4377,0.114826,litecoin,Litecoin
+2025-11-13,coinbase exchange,LTC,BTC,1486.97013658,0.00096,0.104058,litecoin,Litecoin

@@ -1,0 +1,18 @@
+date,exchange,base,target,volume,last_price,bid_ask_spread,crypto_id,crypto_name
+2025-11-13,binance,BNB,USDT,216998.623,953.06,0.011049,binancecoin,BNB
+2025-11-13,binance,BNB,FDUSD,153258.845,955.49,0.019419,binancecoin,BNB
+2025-11-13,binance,BNB,USDC,39190.062,953.14,0.011049,binancecoin,BNB
+2025-11-13,binance,BNB,EUR,2452.918,822.17,0.011216,binancecoin,BNB
+2025-11-13,coinbase exchange,BNB,USD,2121.27347,952.26,0.012597,binancecoin,BNB
+2025-11-13,binance,BNB,ETH,5468.233,0.2796,0.035778,binancecoin,BNB
+2025-11-13,binance,BNB,TRY,2582.235,40321.0,0.01992,binancecoin,BNB
+2025-11-13,binance,SOL,BNB,10943.05,0.1609,0.06215,binancecoin,BNB
+2025-11-13,binance,BNB,JPY,1760.9039,147731.0,0.056847,binancecoin,BNB
+2025-11-13,binance,XRP,BNB,156405.3,0.002503,0.06784,binancecoin,BNB
+2025-11-13,binance,BNB,BRL,272.963,5052.0,0.039588,binancecoin,BNB
+2025-11-13,binance us,BNB,USD,447.28330220552743,953.06,0.146771,binancecoin,BNB
+2025-11-13,binance,SUI,BNB,39762.9,0.00206,0.04845,binancecoin,BNB
+2025-11-13,binance,SOLV,BNB,19703563.0,1.715e-05,0.174927,binancecoin,BNB
+2025-11-13,binance us,BNB,USDT,310.98704198121123,953.76,0.22339,binancecoin,BNB
+2025-11-13,binance,LINK,BNB,4068.953,0.01589,0.062893,binancecoin,BNB
+2025-11-13,binance,AVAX,BNB,3379.19,0.01766,0.056625,binancecoin,BNB

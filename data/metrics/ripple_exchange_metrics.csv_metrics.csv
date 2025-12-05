@@ -1,0 +1,14 @@
+date,exchange,crypto_id,crypto_name,last_price,volume,bid_ask_spread_percentage,trust_score,trade_url
+2025-11-13,binance,ripple,XRP,2.387,141125250.0,0.01419,green,https://www.binance.com/en/trade/XRP_USDT?ref=37754157
+2025-11-13,coinbase exchange,ripple,XRP,2.3842,97249652.557529,0.014194,green,https://www.coinbase.com/advanced-trade/spot/XRP-USD
+2025-11-13,binance,ripple,XRP,2.3866,46066543.7,0.014189,green,https://www.binance.com/en/trade/XRP_USDC?ref=37754157
+2025-11-13,kraken,ripple,XRP,2.38798,15180977.34732827,0.010419,green,https://pro.kraken.com/app/trade/XRP-USD
+2025-11-13,kraken,ripple,XRP,2.06026,4482988.27548627,0.010485,green,https://pro.kraken.com/app/trade/XRP-EUR
+2025-11-13,binance,ripple,XRP,370.04,4828562.3,0.012703,green,https://www.binance.com/en/trade/XRP_JPY?ref=37754157
+2025-11-13,binance,ripple,XRP,2.0583,4068866.8,0.014851,green,https://www.binance.com/en/trade/XRP_EUR?ref=37754157
+2025-11-13,binance,ripple,XRP,101.0,5237421.2,0.0199,green,https://www.binance.com/en/trade/XRP_TRY?ref=37754157
+2025-11-13,binance,ripple,XRP,2.35e-05,4973237.6,0.042553,green,https://www.binance.com/en/trade/XRP_BTC?ref=37754157
+2025-11-13,binance us,ripple,XRP,2.3882,5086954.580039361,0.046114,green,https://www.binance.us/trade/pro/XRP_USDT
+2025-11-13,coinbase exchange,ripple,XRP,2.0574,1747718.464431,0.019436,green,https://www.coinbase.com/advanced-trade/spot/XRP-EUR
+2025-11-13,binance,ripple,XRP,0.0007005,516678.0,0.01428,green,https://www.binance.com/en/trade/XRP_ETH?ref=37754157
+2025-11-13,binance,ripple,XRP,12.664,234385.0,0.03951,green,https://www.binance.com/en/trade/XRP_BRL?ref=37754157

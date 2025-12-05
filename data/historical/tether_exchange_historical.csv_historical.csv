@@ -1,0 +1,12 @@
+date,exchange,base,target,volume,last_price,bid_ask_spread,crypto_id,crypto_name
+2025-11-13,binance,BTC,USDT,20457.59018,101552.69,0.01001,tether,Tether
+2025-11-13,binance,ETH,USDT,553558.6784,3411.72,0.010293,tether,Tether
+2025-11-13,binance,SOL,USDT,4144799.085,153.22,0.01653,tether,Tether
+2025-11-13,binance,ZEC,USDT,1428881.554,507.75,0.019684,tether,Tether
+2025-11-13,binance,XRP,USDT,141200030.7,2.3864,0.01419,tether,Tether
+2025-11-13,binance,BNB,USDT,217233.071,952.99,0.011049,tether,Tether
+2025-11-13,binance,USDE,USDT,124193895.0,0.9992,0.010007,tether,Tether
+2025-11-13,kraken,USDT,USD,163353940.5573666,0.99975,0.011,tether,Tether
+2025-11-13,binance,LTC,USDT,1173789.543,97.57,0.010254,tether,Tether
+2025-11-13,binance,UNI,USDT,19355075.51,7.569,0.013219,tether,Tether
+2025-11-13,binance,DOGE,USDT,974706771.0,0.17009,0.015879,tether,Tether

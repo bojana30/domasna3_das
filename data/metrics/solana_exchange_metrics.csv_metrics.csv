@@ -1,0 +1,18 @@
+date,exchange,crypto_id,crypto_name,last_price,volume,bid_ask_spread_percentage,trust_score,trade_url
+2025-11-13,binance,solana,Solana,153.22,4144799.085,0.01653,green,https://www.binance.com/en/trade/SOL_USDT?ref=37754157
+2025-11-13,binance,solana,Solana,153.65,2221881.954,0.013025,green,https://www.binance.com/en/trade/SOL_FDUSD?ref=37754157
+2025-11-13,coinbase exchange,solana,Solana,153.21,1157495.82588045,0.016528,green,https://www.coinbase.com/advanced-trade/spot/SOL-USD
+2025-11-13,binance,solana,Solana,153.11,1153309.124,0.016531,green,https://www.binance.com/en/trade/SOL_USDC?ref=37754157
+2025-11-13,kraken,solana,Solana,153.28,284158.06032068,0.016523,green,https://pro.kraken.com/app/trade/SOL-USD
+2025-11-13,binance,solana,Solana,0.0015082,138086.602,0.016629,green,https://www.binance.com/en/trade/SOL_BTC?ref=37754157
+2025-11-13,kraken,solana,Solana,132.26,105091.35145393,0.015116,green,https://pro.kraken.com/app/trade/SOL-EUR
+2025-11-13,binance,solana,Solana,132.12,98482.015,0.017561,green,https://www.binance.com/en/trade/SOL_EUR?ref=37754157
+2025-11-13,binance,solana,Solana,6479.7,28991.543,0.018501,green,https://www.binance.com/en/trade/SOL_TRY?ref=37754157
+2025-11-13,coinbase exchange,solana,Solana,153.2,15305.705,0.013051,green,https://www.coinbase.com/advanced-trade/spot/SOL-USDT
+2025-11-13,binance,solana,Solana,0.0449,26344.698,0.022242,green,https://www.binance.com/en/trade/SOL_ETH?ref=37754157
+2025-11-13,coinbase exchange,solana,Solana,132.26,23117.767,0.022688,green,https://www.coinbase.com/advanced-trade/spot/SOL-EUR
+2025-11-13,binance,solana,Solana,811.6,8504.72,0.012321,green,https://www.binance.com/en/trade/SOL_BRL?ref=37754157
+2025-11-13,binance,solana,Solana,23752.0,7637.741,0.012633,green,https://www.binance.com/en/trade/SOL_JPY?ref=37754157
+2025-11-13,coinbase exchange,solana,Solana,0.0015071,5540.529,0.013264,green,https://www.coinbase.com/advanced-trade/spot/SOL-BTC
+2025-11-13,coinbase exchange,solana,Solana,116.71,7119.19,0.034264,green,https://www.coinbase.com/advanced-trade/spot/SOL-GBP
+2025-11-13,binance,solana,Solana,0.1609,10943.05,0.06215,green,https://www.binance.com/en/trade/SOL_BNB?ref=37754157

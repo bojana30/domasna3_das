@@ -1,0 +1,2 @@
+date,price,volume_24h,high_24h,low_24h,market_cap,exchanges
+2025-11-27,0.128431,27108530,0.128239,0.118759,29404043,"['MEXC', 'Toobit', 'OrangeX', 'Gate', 'Bitget']"

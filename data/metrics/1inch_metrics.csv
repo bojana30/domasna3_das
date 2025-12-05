@@ -1,0 +1,3 @@
+date,price,volume_24h,high_24h,low_24h,market_cap,exchanges
+2025-11-20,0.182319,19725954,0.18917,0.178871,255015682,
+2025-11-27,0.203547,46100056,0.207317,0.189434,284865927,"['Toobit', 'OrangeX', 'Tokpie', 'Ourbit', 'Binance']"

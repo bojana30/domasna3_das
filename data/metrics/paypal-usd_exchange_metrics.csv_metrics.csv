@@ -1,0 +1,5 @@
+date,exchange,crypto_id,crypto_name,last_price,volume,bid_ask_spread_percentage,trust_score,trade_url
+2025-11-13,kraken,paypal-usd,PayPal USD,1.0,98223.39898,0.029994,yellow,https://pro.kraken.com/app/trade/PYUSD-USD
+2025-11-13,kraken,paypal-usd,PayPal USD,0.863,68.7436,0.208285,yellow,https://pro.kraken.com/app/trade/PYUSD-EUR
+2025-11-13,kraken,paypal-usd,PayPal USD,101787.7,0.01099028,0.288345,yellow,https://pro.kraken.com/app/trade/XBT-PYUSD
+2025-11-13,kraken,paypal-usd,PayPal USD,3508.48,0.00577408,4.81161,yellow,https://pro.kraken.com/app/trade/ETH-PYUSD

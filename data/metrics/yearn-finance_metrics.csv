@@ -1,0 +1,2 @@
+date,price,volume_24h,high_24h,low_24h,market_cap,exchanges
+2025-11-27,4139.66,11381312,4159.74,4097.76,140731032,"['MEXC', 'Phemex', 'BVOX', 'OKX', 'CoinUp.io']"

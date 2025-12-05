@@ -1,0 +1,2 @@
+date,price,volume_24h,high_24h,low_24h,market_cap,exchanges
+2025-11-27,0.04369814,2944821,0.04434535,0.04333687,36029046,"['MEXC', 'Bitfinex', 'Gate', 'Bitget', 'Kraken']"

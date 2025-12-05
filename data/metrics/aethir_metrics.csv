@@ -1,0 +1,3 @@
+date,price,volume_24h,high_24h,low_24h,market_cap,exchanges
+2025-11-20,0.02012476,22985284,0.02089641,0.01889526,303862992,
+2025-11-27,0.01641769,14498092,0.01676343,0.01620962,246346748,"['MEXC', 'OrangeX', 'Coinbase Exchange', 'Zoomex', 'KuCoin']"

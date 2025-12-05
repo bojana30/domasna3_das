@@ -1,0 +1,3 @@
+date,price,volume_24h,high_24h,low_24h,market_cap,exchanges
+2025-11-20,0.114645,13828327,0.121678,0.11113,75904910,
+2025-11-27,0.118687,19065291,0.124104,0.107097,78214161,"['DigiFinex', 'CoinTR', 'Gate', 'Bitget', 'KCEX']"

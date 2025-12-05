@@ -1,0 +1,3 @@
+date,price,volume_24h,high_24h,low_24h,market_cap,exchanges
+2025-11-20,1.71,1249006,1.74,1.69,745919358,
+2025-11-27,1.46,1165826,1.8,1.39,626782232,"['MEXC', 'BVOX', 'Gate', 'CoinUp.io', 'Poloniex']"

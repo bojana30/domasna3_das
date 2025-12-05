@@ -1,0 +1,9 @@
+date,exchange,base,target,volume,last_price,bid_ask_spread,crypto_id,crypto_name
+2025-11-13,coinbase exchange,TAO,USD,61454.151,347.84,0.012874,bittensor,Bittensor
+2025-11-13,binance,TAO,USDC,62993.5707,348.0,0.028727,bittensor,Bittensor
+2025-11-13,kraken,TAO,USD,27734.97927,348.5241,0.017282,bittensor,Bittensor
+2025-11-13,kraken,TAO,EUR,5820.05043,301.0077,0.057216,bittensor,Bittensor
+2025-11-13,binance,TAO,TRY,2245.9007,14739.0,0.027163,bittensor,Bittensor
+2025-11-13,binance,TAO,FDUSD,1347.844,349.0,0.114384,bittensor,Bittensor
+2025-11-13,binance,TAO,BTC,1144.4305,0.003429,0.145645,bittensor,Bittensor
+2025-11-13,binance,TAO,USDT,159842.0291,348.0,0.028727,bittensor,Bittensor

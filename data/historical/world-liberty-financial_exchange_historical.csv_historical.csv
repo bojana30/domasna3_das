@@ -1,0 +1,10 @@
+date,exchange,base,target,volume,last_price,bid_ask_spread,crypto_id,crypto_name
+2025-11-13,coinbase exchange,WLFI,USD,72517061.9,0.14389,0.01694,world-liberty-financial,World Liberty Financial
+2025-11-13,binance,WLFI,USDT,298100973.1,0.1441,0.069396,world-liberty-financial,World Liberty Financial
+2025-11-13,binance,WLFI,TRY,23531250.4,6.096,0.016407,world-liberty-financial,World Liberty Financial
+2025-11-13,binance,WLFI,USDC,34255489.3,0.1442,0.069444,world-liberty-financial,World Liberty Financial
+2025-11-13,kraken,WLFI,USD,6733110.50298,0.1441,0.138793,world-liberty-financial,World Liberty Financial
+2025-11-13,binance,WLFI,EUR,191620.2,0.1254,0.560897,world-liberty-financial,World Liberty Financial
+2025-11-13,kraken,WLFI,EUR,567520.83953,0.1258,4.166667,world-liberty-financial,World Liberty Financial
+2025-11-13,binance us,WLFI,USDT,113315.85558678847,0.1423,1.520387,world-liberty-financial,World Liberty Financial
+2025-11-13,binance,WLFI,BRL,61108.6,0.754,1.560468,world-liberty-financial,World Liberty Financial

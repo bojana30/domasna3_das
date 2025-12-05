@@ -1,0 +1,9 @@
+date,exchange,crypto_id,crypto_name,last_price,volume,bid_ask_spread_percentage,trust_score,trade_url
+2025-11-13,coinbase exchange,bittensor,Bittensor,347.84,61454.151,0.012874,green,https://www.coinbase.com/advanced-trade/spot/TAO-USD
+2025-11-13,binance,bittensor,Bittensor,348.0,62993.5707,0.028727,green,https://www.binance.com/en/trade/TAO_USDC?ref=37754157
+2025-11-13,kraken,bittensor,Bittensor,348.5241,27734.97927,0.017282,green,https://pro.kraken.com/app/trade/TAO-USD
+2025-11-13,kraken,bittensor,Bittensor,301.0077,5820.05043,0.057216,green,https://pro.kraken.com/app/trade/TAO-EUR
+2025-11-13,binance,bittensor,Bittensor,14739.0,2245.9007,0.027163,green,https://www.binance.com/en/trade/TAO_TRY?ref=37754157
+2025-11-13,binance,bittensor,Bittensor,349.0,1347.844,0.114384,green,https://www.binance.com/en/trade/TAO_FDUSD?ref=37754157
+2025-11-13,binance,bittensor,Bittensor,0.003429,1144.4305,0.145645,green,https://www.binance.com/en/trade/TAO_BTC?ref=37754157
+2025-11-13,binance,bittensor,Bittensor,348.0,159842.0291,0.028727,green,https://www.binance.com/en/trade/TAO_USDT?ref=37754157

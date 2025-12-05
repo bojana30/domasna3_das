@@ -1,0 +1,4 @@
+date,exchange,base,target,volume,last_price,bid_ask_spread,crypto_id,crypto_name
+2025-11-13,coinbase exchange,USDS,USD,45594.93,0.9996,0.06003,usds,USDS
+2025-11-13,kraken,USDS,USD,7618.29619175,0.99999,1.119011,usds,USDS
+2025-11-13,kraken,USDS,EUR,5.0,0.8401,10.52172,usds,USDS

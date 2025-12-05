@@ -1,0 +1,10 @@
+date,exchange,crypto_id,crypto_name,last_price,volume,bid_ask_spread_percentage,trust_score,trade_url
+2025-11-13,coinbase exchange,world-liberty-financial,World Liberty Financial,0.14389,72517061.9,0.01694,green,https://www.coinbase.com/advanced-trade/spot/WLFI-USD
+2025-11-13,binance,world-liberty-financial,World Liberty Financial,0.1441,298100973.1,0.069396,green,https://www.binance.com/en/trade/WLFI_USDT?ref=37754157
+2025-11-13,binance,world-liberty-financial,World Liberty Financial,6.096,23531250.4,0.016407,green,https://www.binance.com/en/trade/WLFI_TRY?ref=37754157
+2025-11-13,binance,world-liberty-financial,World Liberty Financial,0.1442,34255489.3,0.069444,green,https://www.binance.com/en/trade/WLFI_USDC?ref=37754157
+2025-11-13,kraken,world-liberty-financial,World Liberty Financial,0.1441,6733110.50298,0.138793,green,https://pro.kraken.com/app/trade/WLFI-USD
+2025-11-13,binance,world-liberty-financial,World Liberty Financial,0.1254,191620.2,0.560897,green,https://www.binance.com/en/trade/WLFI_EUR?ref=37754157
+2025-11-13,kraken,world-liberty-financial,World Liberty Financial,0.1258,567520.83953,4.166667,yellow,https://pro.kraken.com/app/trade/WLFI-EUR
+2025-11-13,binance us,world-liberty-financial,World Liberty Financial,0.1423,113315.85558678847,1.520387,yellow,https://www.binance.us/trade/pro/WLFI_USDT
+2025-11-13,binance,world-liberty-financial,World Liberty Financial,0.754,61108.6,1.560468,yellow,https://www.binance.com/en/trade/WLFI_BRL?ref=37754157

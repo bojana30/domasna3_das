@@ -1,0 +1,5 @@
+date,exchange,base,target,volume,last_price,bid_ask_spread,crypto_id,crypto_name
+2025-11-13,kraken,PYUSD,USD,98223.39898,1.0,0.029994,paypal-usd,PayPal USD
+2025-11-13,kraken,PYUSD,EUR,68.7436,0.863,0.208285,paypal-usd,PayPal USD
+2025-11-13,kraken,XBT,PYUSD,0.01099028,101787.7,0.288345,paypal-usd,PayPal USD
+2025-11-13,kraken,ETH,PYUSD,0.00577408,3508.48,4.81161,paypal-usd,PayPal USD

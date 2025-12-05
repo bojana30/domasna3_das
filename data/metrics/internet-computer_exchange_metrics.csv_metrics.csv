@@ -1,0 +1,16 @@
+date,exchange,crypto_id,crypto_name,last_price,volume,bid_ask_spread_percentage,trust_score,trade_url
+2025-11-13,binance,internet-computer,Internet Computer,6.395,16880377.95,0.015625,green,https://www.binance.com/en/trade/ICP_USDT?ref=37754157
+2025-11-13,coinbase exchange,internet-computer,Internet Computer,6.398,6693804.981,0.04686,green,https://www.coinbase.com/advanced-trade/spot/ICP-USD
+2025-11-13,binance,internet-computer,Internet Computer,6.378,2193096.37,0.031402,green,https://www.binance.com/en/trade/ICP_USDC?ref=37754157
+2025-11-13,kraken,internet-computer,Internet Computer,6.361,2145060.67946816,0.078321,green,https://pro.kraken.com/app/trade/ICP-USD
+2025-11-13,binance,internet-computer,Internet Computer,6.29e-05,511789.68,0.158983,green,https://www.binance.com/en/trade/ICP_BTC?ref=37754157
+2025-11-13,kraken,internet-computer,Internet Computer,5.503,256409.14684624,0.090728,green,https://pro.kraken.com/app/trade/ICP-EUR
+2025-11-13,binance,internet-computer,Internet Computer,270.2,294374.369,0.148423,green,https://www.binance.com/en/trade/ICP_TRY?ref=37754157
+2025-11-13,coinbase exchange,internet-computer,Internet Computer,5.495,51946.3427,0.072608,green,https://www.coinbase.com/advanced-trade/spot/ICP-EUR
+2025-11-13,binance,internet-computer,Internet Computer,0.001871,112293.687,0.214018,green,https://www.binance.com/en/trade/ICP_ETH?ref=37754157
+2025-11-13,coinbase exchange,internet-computer,Internet Computer,4.851,38703.9449,0.082203,green,https://www.coinbase.com/advanced-trade/spot/ICP-GBP
+2025-11-13,coinbase exchange,internet-computer,Internet Computer,6.371,42296.6469,0.10958,green,https://www.coinbase.com/advanced-trade/spot/ICP-USDT
+2025-11-13,binance,internet-computer,Internet Computer,5.5,45419.08,0.289908,green,https://www.binance.com/en/trade/ICP_EUR?ref=37754157
+2025-11-13,binance us,internet-computer,Internet Computer,6.384,23642.37049342105,0.733229,green,https://www.binance.us/trade/pro/ICP_USDT
+2025-11-13,coinbase exchange,internet-computer,Internet Computer,6.26e-05,10671.7525,0.476948,green,https://www.coinbase.com/advanced-trade/spot/ICP-BTC
+2025-11-13,binance us,internet-computer,Internet Computer,6.379,3929.468060824581,0.328793,green,https://www.binance.us/trade/pro/ICP_USD

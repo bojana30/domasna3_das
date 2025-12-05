@@ -1,0 +1,18 @@
+date,exchange,crypto_id,crypto_name,last_price,volume,bid_ask_spread_percentage,trust_score,trade_url
+2025-11-13,binance,binancecoin,BNB,953.06,216998.623,0.011049,green,https://www.binance.com/en/trade/BNB_USDT?ref=37754157
+2025-11-13,binance,binancecoin,BNB,955.49,153258.845,0.019419,green,https://www.binance.com/en/trade/BNB_FDUSD?ref=37754157
+2025-11-13,binance,binancecoin,BNB,953.14,39190.062,0.011049,green,https://www.binance.com/en/trade/BNB_USDC?ref=37754157
+2025-11-13,binance,binancecoin,BNB,822.17,2452.918,0.011216,green,https://www.binance.com/en/trade/BNB_EUR?ref=37754157
+2025-11-13,coinbase exchange,binancecoin,BNB,952.26,2121.27347,0.012597,green,https://www.coinbase.com/advanced-trade/spot/BNB-USD
+2025-11-13,binance,binancecoin,BNB,0.2796,5468.233,0.035778,green,https://www.binance.com/en/trade/BNB_ETH?ref=37754157
+2025-11-13,binance,binancecoin,BNB,40321.0,2582.235,0.01992,green,https://www.binance.com/en/trade/BNB_TRY?ref=37754157
+2025-11-13,binance,binancecoin,BNB,0.1609,10943.05,0.06215,green,https://www.binance.com/en/trade/SOL_BNB?ref=37754157
+2025-11-13,binance,binancecoin,BNB,147731.0,1760.9039,0.056847,green,https://www.binance.com/en/trade/BNB_JPY?ref=37754157
+2025-11-13,binance,binancecoin,BNB,0.002503,156405.3,0.06784,green,https://www.binance.com/en/trade/XRP_BNB?ref=37754157
+2025-11-13,binance,binancecoin,BNB,5052.0,272.963,0.039588,green,https://www.binance.com/en/trade/BNB_BRL?ref=37754157
+2025-11-13,binance us,binancecoin,BNB,953.06,447.28330220552743,0.146771,green,https://www.binance.us/trade/pro/BNB_USD
+2025-11-13,binance,binancecoin,BNB,0.00206,39762.9,0.04845,green,https://www.binance.com/en/trade/SUI_BNB?ref=37754157
+2025-11-13,binance,binancecoin,BNB,1.715e-05,19703563.0,0.174927,green,https://www.binance.com/en/trade/SOLV_BNB?ref=37754157
+2025-11-13,binance us,binancecoin,BNB,953.76,310.98704198121123,0.22339,green,https://www.binance.us/trade/pro/BNB_USDT
+2025-11-13,binance,binancecoin,BNB,0.01589,4068.953,0.062893,green,https://www.binance.com/en/trade/LINK_BNB?ref=37754157
+2025-11-13,binance,binancecoin,BNB,0.01766,3379.19,0.056625,green,https://www.binance.com/en/trade/AVAX_BNB?ref=37754157

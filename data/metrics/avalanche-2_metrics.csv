@@ -1,0 +1,4 @@
+date,price,volume_24h,high_24h,low_24h,price_change_24h,price_change_percentage_24h,market_cap,exchanges
+2025-11-13,16.81,429125249,17.72,16.68,-0.20143113586594,-1.18415,7183299320,
+2025-11-20,14.4,500086383,14.45,13.75,,,6178322991,
+2025-11-27,15.1,454737096,15.14,14.5,,,6476617323,"['MEXC', 'BVOX', 'CoinUp.io', 'KuCoin', 'Dexalot']"

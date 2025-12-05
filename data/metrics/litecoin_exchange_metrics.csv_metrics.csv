@@ -1,0 +1,16 @@
+date,exchange,crypto_id,crypto_name,last_price,volume,bid_ask_spread_percentage,trust_score,trade_url
+2025-11-13,binance,litecoin,Litecoin,97.59,1173757.07,0.010247,green,https://www.binance.com/en/trade/LTC_USDT?ref=37754157
+2025-11-13,coinbase exchange,litecoin,Litecoin,97.47,376287.7921891,0.020519,green,https://www.coinbase.com/advanced-trade/spot/LTC-USD
+2025-11-13,kraken,litecoin,Litecoin,97.55,77352.04951365,0.010248,green,https://pro.kraken.com/app/trade/LTC-USD
+2025-11-13,binance,litecoin,Litecoin,97.62,158820.3,0.020486,green,https://www.binance.com/en/trade/LTC_USDC?ref=37754157
+2025-11-13,binance,litecoin,Litecoin,84.24,12195.246,0.011872,green,https://www.binance.com/en/trade/LTC_EUR?ref=37754157
+2025-11-13,coinbase exchange,litecoin,Litecoin,84.24,24683.1713094,0.035617,green,https://www.coinbase.com/advanced-trade/spot/LTC-EUR
+2025-11-13,binance,litecoin,Litecoin,97.72,12862.058,0.051078,green,https://www.binance.com/en/trade/LTC_FDUSD?ref=37754157
+2025-11-13,binance,litecoin,Litecoin,4130.0,9554.503,0.048438,green,https://www.binance.com/en/trade/LTC_TRY?ref=37754157
+2025-11-13,binance,litecoin,Litecoin,0.000961,17784.157,0.104167,green,https://www.binance.com/en/trade/LTC_BTC?ref=37754157
+2025-11-13,binance,litecoin,Litecoin,0.02861,7429.627,0.069906,green,https://www.binance.com/en/trade/LTC_ETH?ref=37754157
+2025-11-13,coinbase exchange,litecoin,Litecoin,74.29,3984.29087039,0.040393,green,https://www.coinbase.com/advanced-trade/spot/LTC-GBP
+2025-11-13,binance,litecoin,Litecoin,15140.0,1861.112,0.033051,green,https://www.binance.com/en/trade/LTC_JPY?ref=37754157
+2025-11-13,kraken,litecoin,Litecoin,97.826,3365.16710916,0.100355,green,https://pro.kraken.com/app/trade/LTC-USDC
+2025-11-13,kraken,litecoin,Litecoin,74.4377,2389.93176679,0.114826,green,https://pro.kraken.com/app/trade/LTC-GBP
+2025-11-13,coinbase exchange,litecoin,Litecoin,0.00096,1486.97013658,0.104058,green,https://www.coinbase.com/advanced-trade/spot/LTC-BTC

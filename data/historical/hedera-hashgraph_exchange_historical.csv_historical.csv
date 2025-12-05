@@ -1,0 +1,13 @@
+date,exchange,base,target,volume,last_price,bid_ask_spread,crypto_id,crypto_name
+2025-11-13,binance,HBAR,USDT,274780765.0,0.17403,0.015745,hedera-hashgraph,Hedera
+2025-11-13,coinbase exchange,HBAR,USD,193833740.0,0.17384,0.015752,hedera-hashgraph,Hedera
+2025-11-13,binance,HBAR,USDC,90893029.0,0.17411,0.022991,hedera-hashgraph,Hedera
+2025-11-13,coinbase exchange,HBAR,USDT,24060279.5,0.17387,0.023,hedera-hashgraph,Hedera
+2025-11-13,kraken,HBAR,USD,6256649.93301,0.174,0.015747,hedera-hashgraph,Hedera
+2025-11-13,kraken,HBAR,EUR,1136871.29409,0.15025,0.013324,hedera-hashgraph,Hedera
+2025-11-13,binance,HBAR,TRY,2439541.0,7.354,0.040722,hedera-hashgraph,Hedera
+2025-11-13,binance,HBAR,FDUSD,519324.0,0.17424,0.188928,hedera-hashgraph,Hedera
+2025-11-13,binance,HBAR,BTC,5923422.0,1.72e-06,0.581395,hedera-hashgraph,Hedera
+2025-11-13,binance,HBAR,BNB,239614.0,0.00018271,0.093054,hedera-hashgraph,Hedera
+2025-11-13,binance us,HBAR,USDT,360225.82106533356,0.17403,0.149528,hedera-hashgraph,Hedera
+2025-11-13,binance us,HBAR,USD,11208.559112592679,0.17399,0.258665,hedera-hashgraph,Hedera

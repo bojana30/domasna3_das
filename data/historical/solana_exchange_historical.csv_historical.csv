@@ -1,0 +1,18 @@
+date,exchange,base,target,volume,last_price,bid_ask_spread,crypto_id,crypto_name
+2025-11-13,binance,SOL,USDT,4144799.085,153.22,0.01653,solana,Solana
+2025-11-13,binance,SOL,FDUSD,2221881.954,153.65,0.013025,solana,Solana
+2025-11-13,coinbase exchange,SOL,USD,1157495.82588045,153.21,0.016528,solana,Solana
+2025-11-13,binance,SOL,USDC,1153309.124,153.11,0.016531,solana,Solana
+2025-11-13,kraken,SOL,USD,284158.06032068,153.28,0.016523,solana,Solana
+2025-11-13,binance,SOL,BTC,138086.602,0.0015082,0.016629,solana,Solana
+2025-11-13,kraken,SOL,EUR,105091.35145393,132.26,0.015116,solana,Solana
+2025-11-13,binance,SOL,EUR,98482.015,132.12,0.017561,solana,Solana
+2025-11-13,binance,SOL,TRY,28991.543,6479.7,0.018501,solana,Solana
+2025-11-13,coinbase exchange,SOL,USDT,15305.705,153.2,0.013051,solana,Solana
+2025-11-13,binance,SOL,ETH,26344.698,0.0449,0.022242,solana,Solana
+2025-11-13,coinbase exchange,SOL,EUR,23117.767,132.26,0.022688,solana,Solana
+2025-11-13,binance,SOL,BRL,8504.72,811.6,0.012321,solana,Solana
+2025-11-13,binance,SOL,JPY,7637.741,23752.0,0.012633,solana,Solana
+2025-11-13,coinbase exchange,SOL,BTC,5540.529,0.0015071,0.013264,solana,Solana
+2025-11-13,coinbase exchange,SOL,GBP,7119.19,116.71,0.034264,solana,Solana
+2025-11-13,binance,SOL,BNB,10943.05,0.1609,0.06215,solana,Solana

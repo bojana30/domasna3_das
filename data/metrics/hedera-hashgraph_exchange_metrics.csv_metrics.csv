@@ -1,0 +1,13 @@
+date,exchange,crypto_id,crypto_name,last_price,volume,bid_ask_spread_percentage,trust_score,trade_url
+2025-11-13,binance,hedera-hashgraph,Hedera,0.17403,274780765.0,0.015745,green,https://www.binance.com/en/trade/HBAR_USDT?ref=37754157
+2025-11-13,coinbase exchange,hedera-hashgraph,Hedera,0.17384,193833740.0,0.015752,green,https://www.coinbase.com/advanced-trade/spot/HBAR-USD
+2025-11-13,binance,hedera-hashgraph,Hedera,0.17411,90893029.0,0.022991,green,https://www.binance.com/en/trade/HBAR_USDC?ref=37754157
+2025-11-13,coinbase exchange,hedera-hashgraph,Hedera,0.17387,24060279.5,0.023,green,https://www.coinbase.com/advanced-trade/spot/HBAR-USDT
+2025-11-13,kraken,hedera-hashgraph,Hedera,0.174,6256649.93301,0.015747,green,https://pro.kraken.com/app/trade/HBAR-USD
+2025-11-13,kraken,hedera-hashgraph,Hedera,0.15025,1136871.29409,0.013324,green,https://pro.kraken.com/app/trade/HBAR-EUR
+2025-11-13,binance,hedera-hashgraph,Hedera,7.354,2439541.0,0.040722,green,https://www.binance.com/en/trade/HBAR_TRY?ref=37754157
+2025-11-13,binance,hedera-hashgraph,Hedera,0.17424,519324.0,0.188928,green,https://www.binance.com/en/trade/HBAR_FDUSD?ref=37754157
+2025-11-13,binance,hedera-hashgraph,Hedera,1.72e-06,5923422.0,0.581395,yellow,https://www.binance.com/en/trade/HBAR_BTC?ref=37754157
+2025-11-13,binance,hedera-hashgraph,Hedera,0.00018271,239614.0,0.093054,yellow,https://www.binance.com/en/trade/HBAR_BNB?ref=37754157
+2025-11-13,binance us,hedera-hashgraph,Hedera,0.17403,360225.82106533356,0.149528,yellow,https://www.binance.us/trade/pro/HBAR_USDT
+2025-11-13,binance us,hedera-hashgraph,Hedera,0.17399,11208.559112592679,0.258665,yellow,https://www.binance.us/trade/pro/HBAR_USD

@@ -1,0 +1,366 @@
+2025-11-13 00:46:23,670 - __main__ - INFO - 🚀 Starting Crypto Data Processing Pipeline with CSV Storage
+2025-11-13 00:46:23,671 - utils.timer - INFO - Starting Complete Data Processing Pipeline...
+2025-11-13 00:46:23,671 - __main__ - INFO - 🔍 Filter 1: Fetching cryptocurrency symbols...
+2025-11-13 00:46:23,671 - filters.symbol_filter - INFO - Starting symbol filter: Fetching top cryptocurrencies
+2025-11-13 00:46:24,943 - utils.csv_manager - INFO - Saved 50 symbols to data\symbols\crypto_symbols_20251113_004624.csv
+2025-11-13 00:46:24,944 - filters.symbol_filter - INFO - Symbol filter completed: Found 50 valid cryptocurrencies
+2025-11-13 00:46:24,958 - __main__ - INFO - ✅ Filter 1 completed: 50 symbols retrieved
+2025-11-13 00:46:24,958 - __main__ - INFO - 📅 Filter 2: Checking existing data dates...
+2025-11-13 00:46:24,958 - filters.date_check_filter - INFO - Starting date check filter
+2025-11-13 00:46:24,960 - filters.date_check_filter - INFO - Date check completed: 50/50 need updates
+2025-11-13 00:46:24,960 - __main__ - INFO - ✅ Filter 2 completed: Date checking finished
+2025-11-13 00:46:24,961 - __main__ - INFO - 📥 Filter 3: Downloading missing data...
+2025-11-13 00:46:24,961 - filters.data_fill_filter - INFO - Starting data fill filter
+2025-11-13 00:46:24,961 - filters.data_fill_filter - INFO - Processing bitcoin - Bitcoin
+2025-11-13 00:46:27,095 - utils.csv_manager - INFO - Saved 92 historical records for bitcoin
+2025-11-13 00:46:27,099 - utils.csv_manager - INFO - Saved 1 metrics records for bitcoin
+2025-11-13 00:46:27,100 - filters.data_fill_filter - INFO - ✓ Successfully processed bitcoin
+2025-11-13 00:46:37,100 - filters.data_fill_filter - INFO - Processing ethereum - Ethereum
+2025-11-13 00:46:39,499 - utils.csv_manager - INFO - Saved 92 historical records for ethereum
+2025-11-13 00:46:39,504 - utils.csv_manager - INFO - Saved 1 metrics records for ethereum
+2025-11-13 00:46:39,504 - filters.data_fill_filter - INFO - ✓ Successfully processed ethereum
+2025-11-13 00:46:49,505 - filters.data_fill_filter - INFO - Processing tether - Tether
+2025-11-13 00:46:50,437 - filters.data_fill_filter - ERROR - Error downloading historical data for tether: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/tether/ohlc?vs_currency=usd&days=365
+2025-11-13 00:46:51,327 - filters.data_fill_filter - ERROR - Error downloading current metrics for tether: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/tether?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:46:51,331 - filters.data_fill_filter - INFO - ✓ Successfully processed tether
+2025-11-13 00:47:01,332 - filters.data_fill_filter - INFO - Processing ripple - XRP
+2025-11-13 00:47:02,214 - filters.data_fill_filter - ERROR - Error downloading historical data for ripple: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/ripple/ohlc?vs_currency=usd&days=365
+2025-11-13 00:47:03,124 - filters.data_fill_filter - ERROR - Error downloading current metrics for ripple: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/ripple?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:47:03,127 - filters.data_fill_filter - INFO - ✓ Successfully processed ripple
+2025-11-13 00:47:13,128 - filters.data_fill_filter - INFO - Processing binancecoin - BNB
+2025-11-13 00:47:13,998 - filters.data_fill_filter - ERROR - Error downloading historical data for binancecoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/binancecoin/ohlc?vs_currency=usd&days=365
+2025-11-13 00:47:14,854 - filters.data_fill_filter - ERROR - Error downloading current metrics for binancecoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/binancecoin?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:47:14,858 - filters.data_fill_filter - INFO - ✓ Successfully processed binancecoin
+2025-11-13 00:47:24,859 - filters.data_fill_filter - INFO - Processing solana - Solana
+2025-11-13 00:47:25,859 - filters.data_fill_filter - ERROR - Error downloading historical data for solana: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/solana/ohlc?vs_currency=usd&days=365
+2025-11-13 00:47:27,615 - filters.data_fill_filter - ERROR - Error downloading current metrics for solana: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/solana?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:47:27,617 - filters.data_fill_filter - INFO - ✓ Successfully processed solana
+2025-11-13 00:47:37,618 - filters.data_fill_filter - INFO - Processing usd-coin - USDC
+2025-11-13 00:47:38,516 - filters.data_fill_filter - ERROR - Error downloading historical data for usd-coin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/usd-coin/ohlc?vs_currency=usd&days=365
+2025-11-13 00:47:39,376 - filters.data_fill_filter - ERROR - Error downloading current metrics for usd-coin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/usd-coin?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:47:39,378 - filters.data_fill_filter - INFO - ✓ Successfully processed usd-coin
+2025-11-13 00:47:49,380 - filters.data_fill_filter - INFO - Processing staked-ether - Lido Staked Ether
+2025-11-13 00:47:52,672 - utils.csv_manager - INFO - Saved 92 historical records for staked-ether
+2025-11-13 00:47:52,678 - utils.csv_manager - INFO - Saved 1 metrics records for staked-ether
+2025-11-13 00:47:52,678 - filters.data_fill_filter - INFO - ✓ Successfully processed staked-ether
+2025-11-13 00:48:02,679 - filters.data_fill_filter - INFO - Processing tron - TRON
+2025-11-13 00:48:05,089 - utils.csv_manager - INFO - Saved 92 historical records for tron
+2025-11-13 00:48:05,093 - utils.csv_manager - INFO - Saved 1 metrics records for tron
+2025-11-13 00:48:05,093 - filters.data_fill_filter - INFO - ✓ Successfully processed tron
+2025-11-13 00:48:15,094 - filters.data_fill_filter - INFO - Processing dogecoin - Dogecoin
+2025-11-13 00:48:17,333 - utils.csv_manager - INFO - Saved 92 historical records for dogecoin
+2025-11-13 00:48:17,336 - utils.csv_manager - INFO - Saved 1 metrics records for dogecoin
+2025-11-13 00:48:17,337 - filters.data_fill_filter - INFO - ✓ Successfully processed dogecoin
+2025-11-13 00:48:27,338 - filters.data_fill_filter - INFO - Processing cardano - Cardano
+2025-11-13 00:48:28,213 - filters.data_fill_filter - ERROR - Error downloading historical data for cardano: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/cardano/ohlc?vs_currency=usd&days=365
+2025-11-13 00:48:29,040 - filters.data_fill_filter - ERROR - Error downloading current metrics for cardano: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/cardano?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:48:29,043 - filters.data_fill_filter - INFO - ✓ Successfully processed cardano
+2025-11-13 00:48:39,045 - filters.data_fill_filter - INFO - Processing figure-heloc - Figure Heloc
+2025-11-13 00:48:39,893 - filters.data_fill_filter - ERROR - Error downloading historical data for figure-heloc: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/figure-heloc/ohlc?vs_currency=usd&days=365
+2025-11-13 00:48:40,732 - filters.data_fill_filter - ERROR - Error downloading current metrics for figure-heloc: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/figure-heloc?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:48:40,734 - filters.data_fill_filter - INFO - ✓ Successfully processed figure-heloc
+2025-11-13 00:48:50,735 - filters.data_fill_filter - INFO - Processing wrapped-steth - Wrapped stETH
+2025-11-13 00:48:51,612 - filters.data_fill_filter - ERROR - Error downloading historical data for wrapped-steth: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/wrapped-steth/ohlc?vs_currency=usd&days=365
+2025-11-13 00:48:52,485 - filters.data_fill_filter - ERROR - Error downloading current metrics for wrapped-steth: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/wrapped-steth?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:48:52,488 - filters.data_fill_filter - INFO - ✓ Successfully processed wrapped-steth
+2025-11-13 00:49:02,489 - filters.data_fill_filter - INFO - Processing wrapped-bitcoin - Wrapped Bitcoin
+2025-11-13 00:49:03,365 - filters.data_fill_filter - ERROR - Error downloading historical data for wrapped-bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/wrapped-bitcoin/ohlc?vs_currency=usd&days=365
+2025-11-13 00:49:04,189 - filters.data_fill_filter - ERROR - Error downloading current metrics for wrapped-bitcoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/wrapped-bitcoin?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:49:04,191 - filters.data_fill_filter - INFO - ✓ Successfully processed wrapped-bitcoin
+2025-11-13 00:49:14,192 - filters.data_fill_filter - INFO - Processing wrapped-beacon-eth - Wrapped Beacon ETH
+2025-11-13 00:49:15,084 - filters.data_fill_filter - ERROR - Error downloading historical data for wrapped-beacon-eth: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/wrapped-beacon-eth/ohlc?vs_currency=usd&days=365
+2025-11-13 00:49:15,915 - filters.data_fill_filter - ERROR - Error downloading current metrics for wrapped-beacon-eth: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/wrapped-beacon-eth?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:49:15,917 - filters.data_fill_filter - INFO - ✓ Successfully processed wrapped-beacon-eth
+2025-11-13 00:49:25,918 - filters.data_fill_filter - INFO - Processing whitebit - WhiteBIT Coin
+2025-11-13 00:49:27,266 - filters.data_fill_filter - ERROR - Error downloading historical data for whitebit: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/whitebit/ohlc?vs_currency=usd&days=365
+2025-11-13 00:49:28,158 - filters.data_fill_filter - ERROR - Error downloading current metrics for whitebit: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/whitebit?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:49:28,160 - filters.data_fill_filter - INFO - ✓ Successfully processed whitebit
+2025-11-13 00:49:38,162 - filters.data_fill_filter - INFO - Processing chainlink - Chainlink
+2025-11-13 00:49:40,409 - utils.csv_manager - INFO - Saved 92 historical records for chainlink
+2025-11-13 00:49:40,412 - utils.csv_manager - INFO - Saved 1 metrics records for chainlink
+2025-11-13 00:49:40,414 - filters.data_fill_filter - INFO - ✓ Successfully processed chainlink
+2025-11-13 00:49:50,414 - filters.data_fill_filter - INFO - Processing hyperliquid - Hyperliquid
+2025-11-13 00:49:52,783 - utils.csv_manager - INFO - Saved 87 historical records for hyperliquid
+2025-11-13 00:49:52,787 - utils.csv_manager - INFO - Saved 1 metrics records for hyperliquid
+2025-11-13 00:49:52,787 - filters.data_fill_filter - INFO - ✓ Successfully processed hyperliquid
+2025-11-13 00:50:02,788 - filters.data_fill_filter - INFO - Processing bitcoin-cash - Bitcoin Cash
+2025-11-13 00:50:05,213 - utils.csv_manager - INFO - Saved 92 historical records for bitcoin-cash
+2025-11-13 00:50:05,216 - utils.csv_manager - INFO - Saved 1 metrics records for bitcoin-cash
+2025-11-13 00:50:05,217 - filters.data_fill_filter - INFO - ✓ Successfully processed bitcoin-cash
+2025-11-13 00:50:15,217 - filters.data_fill_filter - INFO - Processing usds - USDS
+2025-11-13 00:50:16,074 - filters.data_fill_filter - ERROR - Error downloading historical data for usds: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/usds/ohlc?vs_currency=usd&days=365
+2025-11-13 00:50:16,972 - filters.data_fill_filter - ERROR - Error downloading current metrics for usds: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/usds?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:50:16,975 - filters.data_fill_filter - INFO - ✓ Successfully processed usds
+2025-11-13 00:50:26,976 - filters.data_fill_filter - INFO - Processing binance-bridged-usdt-bnb-smart-chain - Binance Bridged USDT (BNB Smart Chain)
+2025-11-13 00:50:37,245 - filters.data_fill_filter - ERROR - Error downloading historical data for binance-bridged-usdt-bnb-smart-chain: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/binance-bridged-usdt-bnb-smart-chain/ohlc?vs_currency=usd&days=365
+2025-11-13 00:50:38,095 - filters.data_fill_filter - ERROR - Error downloading current metrics for binance-bridged-usdt-bnb-smart-chain: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/binance-bridged-usdt-bnb-smart-chain?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:50:38,096 - filters.data_fill_filter - INFO - ✓ Successfully processed binance-bridged-usdt-bnb-smart-chain
+2025-11-13 00:50:48,097 - filters.data_fill_filter - INFO - Processing stellar - Stellar
+2025-11-13 00:50:48,966 - filters.data_fill_filter - ERROR - Error downloading historical data for stellar: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/stellar/ohlc?vs_currency=usd&days=365
+2025-11-13 00:50:49,794 - filters.data_fill_filter - ERROR - Error downloading current metrics for stellar: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/stellar?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:50:49,796 - filters.data_fill_filter - INFO - ✓ Successfully processed stellar
+2025-11-13 00:50:59,798 - filters.data_fill_filter - INFO - Processing wrapped-eeth - Wrapped eETH
+2025-11-13 00:51:00,653 - filters.data_fill_filter - ERROR - Error downloading historical data for wrapped-eeth: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/wrapped-eeth/ohlc?vs_currency=usd&days=365
+2025-11-13 00:51:01,525 - filters.data_fill_filter - ERROR - Error downloading current metrics for wrapped-eeth: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/wrapped-eeth?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:51:01,527 - filters.data_fill_filter - INFO - ✓ Successfully processed wrapped-eeth
+2025-11-13 00:51:11,528 - filters.data_fill_filter - INFO - Processing leo-token - LEO Token
+2025-11-13 00:51:12,471 - filters.data_fill_filter - ERROR - Error downloading historical data for leo-token: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/leo-token/ohlc?vs_currency=usd&days=365
+2025-11-13 00:51:13,308 - filters.data_fill_filter - ERROR - Error downloading current metrics for leo-token: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/leo-token?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:51:13,311 - filters.data_fill_filter - INFO - ✓ Successfully processed leo-token
+2025-11-13 00:51:23,313 - filters.data_fill_filter - INFO - Processing zcash - Zcash
+2025-11-13 00:51:27,559 - utils.csv_manager - INFO - Saved 92 historical records for zcash
+2025-11-13 00:51:27,562 - utils.csv_manager - INFO - Saved 1 metrics records for zcash
+2025-11-13 00:51:27,563 - filters.data_fill_filter - INFO - ✓ Successfully processed zcash
+2025-11-13 00:51:37,564 - filters.data_fill_filter - INFO - Processing weth - WETH
+2025-11-13 00:51:39,848 - utils.csv_manager - INFO - Saved 92 historical records for weth
+2025-11-13 00:51:39,851 - utils.csv_manager - INFO - Saved 1 metrics records for weth
+2025-11-13 00:51:39,851 - filters.data_fill_filter - INFO - ✓ Successfully processed weth
+2025-11-13 00:51:49,852 - filters.data_fill_filter - INFO - Processing ethena-usde - Ethena USDe
+2025-11-13 00:51:52,034 - filters.data_fill_filter - ERROR - Error downloading current metrics for ethena-usde: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/ethena-usde?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:51:52,041 - utils.csv_manager - INFO - Saved 92 historical records for ethena-usde
+2025-11-13 00:51:52,041 - filters.data_fill_filter - INFO - ✓ Successfully processed ethena-usde
+2025-11-13 00:52:02,042 - filters.data_fill_filter - INFO - Processing litecoin - Litecoin
+2025-11-13 00:52:04,844 - filters.data_fill_filter - ERROR - Error downloading historical data for litecoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/litecoin/ohlc?vs_currency=usd&days=365
+2025-11-13 00:52:05,713 - filters.data_fill_filter - ERROR - Error downloading current metrics for litecoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/litecoin?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:52:05,715 - filters.data_fill_filter - INFO - ✓ Successfully processed litecoin
+2025-11-13 00:52:15,716 - filters.data_fill_filter - INFO - Processing coinbase-wrapped-btc - Coinbase Wrapped BTC
+2025-11-13 00:52:16,746 - filters.data_fill_filter - ERROR - Error downloading historical data for coinbase-wrapped-btc: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/coinbase-wrapped-btc/ohlc?vs_currency=usd&days=365
+2025-11-13 00:52:17,629 - filters.data_fill_filter - ERROR - Error downloading current metrics for coinbase-wrapped-btc: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/coinbase-wrapped-btc?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:52:17,632 - filters.data_fill_filter - INFO - ✓ Successfully processed coinbase-wrapped-btc
+2025-11-13 00:52:27,633 - filters.data_fill_filter - INFO - Processing hedera-hashgraph - Hedera
+2025-11-13 00:52:28,522 - filters.data_fill_filter - ERROR - Error downloading historical data for hedera-hashgraph: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/hedera-hashgraph/ohlc?vs_currency=usd&days=365
+2025-11-13 00:52:29,374 - filters.data_fill_filter - ERROR - Error downloading current metrics for hedera-hashgraph: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/hedera-hashgraph?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:52:29,378 - filters.data_fill_filter - INFO - ✓ Successfully processed hedera-hashgraph
+2025-11-13 00:52:39,379 - filters.data_fill_filter - INFO - Processing sui - Sui
+2025-11-13 00:52:40,222 - filters.data_fill_filter - ERROR - Error downloading historical data for sui: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/sui/ohlc?vs_currency=usd&days=365
+2025-11-13 00:52:41,104 - filters.data_fill_filter - ERROR - Error downloading current metrics for sui: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/sui?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:52:41,107 - filters.data_fill_filter - INFO - ✓ Successfully processed sui
+2025-11-13 00:52:51,108 - filters.data_fill_filter - INFO - Processing avalanche-2 - Avalanche
+2025-11-13 00:52:53,455 - utils.csv_manager - INFO - Saved 92 historical records for avalanche-2
+2025-11-13 00:52:53,460 - utils.csv_manager - INFO - Saved 1 metrics records for avalanche-2
+2025-11-13 00:52:53,460 - filters.data_fill_filter - INFO - ✓ Successfully processed avalanche-2
+2025-11-13 00:53:03,460 - filters.data_fill_filter - INFO - Processing monero - Monero
+2025-11-13 00:53:06,287 - utils.csv_manager - INFO - Saved 92 historical records for monero
+2025-11-13 00:53:06,291 - utils.csv_manager - INFO - Saved 1 metrics records for monero
+2025-11-13 00:53:06,291 - filters.data_fill_filter - INFO - ✓ Successfully processed monero
+2025-11-13 00:53:16,292 - filters.data_fill_filter - INFO - Processing shiba-inu - Shiba Inu
+2025-11-13 00:53:18,667 - utils.csv_manager - INFO - Saved 92 historical records for shiba-inu
+2025-11-13 00:53:18,670 - utils.csv_manager - INFO - Saved 1 metrics records for shiba-inu
+2025-11-13 00:53:18,670 - filters.data_fill_filter - INFO - ✓ Successfully processed shiba-inu
+2025-11-13 00:53:28,672 - filters.data_fill_filter - INFO - Processing the-open-network - Toncoin
+2025-11-13 00:53:29,589 - filters.data_fill_filter - ERROR - Error downloading historical data for the-open-network: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/the-open-network/ohlc?vs_currency=usd&days=365
+2025-11-13 00:53:30,471 - filters.data_fill_filter - ERROR - Error downloading current metrics for the-open-network: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/the-open-network?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:53:30,475 - filters.data_fill_filter - INFO - ✓ Successfully processed the-open-network
+2025-11-13 00:53:40,476 - filters.data_fill_filter - INFO - Processing polkadot - Polkadot
+2025-11-13 00:53:41,437 - filters.data_fill_filter - ERROR - Error downloading historical data for polkadot: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/polkadot/ohlc?vs_currency=usd&days=365
+2025-11-13 00:53:42,351 - filters.data_fill_filter - ERROR - Error downloading current metrics for polkadot: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/polkadot?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:53:42,354 - filters.data_fill_filter - INFO - ✓ Successfully processed polkadot
+2025-11-13 00:53:52,355 - filters.data_fill_filter - INFO - Processing uniswap - Uniswap
+2025-11-13 00:53:53,175 - filters.data_fill_filter - ERROR - Error downloading historical data for uniswap: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/uniswap/ohlc?vs_currency=usd&days=365
+2025-11-13 00:53:53,990 - filters.data_fill_filter - ERROR - Error downloading current metrics for uniswap: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/uniswap?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:53:53,993 - filters.data_fill_filter - INFO - ✓ Successfully processed uniswap
+2025-11-13 00:54:03,994 - filters.data_fill_filter - INFO - Processing canton-network - Canton
+2025-11-13 00:54:04,830 - filters.data_fill_filter - ERROR - Error downloading historical data for canton-network: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/canton-network/ohlc?vs_currency=usd&days=365
+2025-11-13 00:54:05,661 - filters.data_fill_filter - ERROR - Error downloading current metrics for canton-network: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/canton-network?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:54:05,664 - filters.data_fill_filter - INFO - ✓ Successfully processed canton-network
+2025-11-13 00:54:15,666 - filters.data_fill_filter - INFO - Processing dai - Dai
+2025-11-13 00:54:16,519 - filters.data_fill_filter - ERROR - Error downloading historical data for dai: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/dai/ohlc?vs_currency=usd&days=365
+2025-11-13 00:54:17,380 - filters.data_fill_filter - ERROR - Error downloading current metrics for dai: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/dai?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:54:17,383 - filters.data_fill_filter - INFO - ✓ Successfully processed dai
+2025-11-13 00:54:27,384 - filters.data_fill_filter - INFO - Processing ethena-staked-usde - Ethena Staked USDe
+2025-11-13 00:54:28,232 - filters.data_fill_filter - ERROR - Error downloading historical data for ethena-staked-usde: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/ethena-staked-usde/ohlc?vs_currency=usd&days=365
+2025-11-13 00:54:29,071 - filters.data_fill_filter - ERROR - Error downloading current metrics for ethena-staked-usde: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/ethena-staked-usde?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:54:29,075 - filters.data_fill_filter - INFO - ✓ Successfully processed ethena-staked-usde
+2025-11-13 00:54:39,076 - filters.data_fill_filter - INFO - Processing crypto-com-chain - Cronos
+2025-11-13 00:54:41,313 - utils.csv_manager - INFO - Saved 92 historical records for crypto-com-chain
+2025-11-13 00:54:41,316 - utils.csv_manager - INFO - Saved 1 metrics records for crypto-com-chain
+2025-11-13 00:54:41,318 - filters.data_fill_filter - INFO - ✓ Successfully processed crypto-com-chain
+2025-11-13 00:54:51,318 - filters.data_fill_filter - INFO - Processing memecore - MemeCore
+2025-11-13 00:54:53,602 - utils.csv_manager - INFO - Saved 33 historical records for memecore
+2025-11-13 00:54:53,606 - utils.csv_manager - INFO - Saved 1 metrics records for memecore
+2025-11-13 00:54:53,606 - filters.data_fill_filter - INFO - ✓ Successfully processed memecore
+2025-11-13 00:55:03,606 - filters.data_fill_filter - INFO - Processing mantle - Mantle
+2025-11-13 00:55:05,910 - utils.csv_manager - INFO - Saved 92 historical records for mantle
+2025-11-13 00:55:05,914 - utils.csv_manager - INFO - Saved 1 metrics records for mantle
+2025-11-13 00:55:05,914 - filters.data_fill_filter - INFO - ✓ Successfully processed mantle
+2025-11-13 00:55:15,915 - filters.data_fill_filter - INFO - Processing world-liberty-financial - World Liberty Financial
+2025-11-13 00:55:16,761 - filters.data_fill_filter - ERROR - Error downloading historical data for world-liberty-financial: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/world-liberty-financial/ohlc?vs_currency=usd&days=365
+2025-11-13 00:55:17,632 - filters.data_fill_filter - ERROR - Error downloading current metrics for world-liberty-financial: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/world-liberty-financial?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:55:17,634 - filters.data_fill_filter - INFO - ✓ Successfully processed world-liberty-financial
+2025-11-13 00:55:27,636 - filters.data_fill_filter - INFO - Processing usdt0 - USDT0
+2025-11-13 00:55:28,587 - filters.data_fill_filter - ERROR - Error downloading historical data for usdt0: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/usdt0/ohlc?vs_currency=usd&days=365
+2025-11-13 00:55:29,469 - filters.data_fill_filter - ERROR - Error downloading current metrics for usdt0: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/usdt0?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:55:29,472 - filters.data_fill_filter - INFO - ✓ Successfully processed usdt0
+2025-11-13 00:55:39,474 - filters.data_fill_filter - INFO - Processing susds - sUSDS
+2025-11-13 00:55:40,427 - filters.data_fill_filter - ERROR - Error downloading historical data for susds: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/susds/ohlc?vs_currency=usd&days=365
+2025-11-13 00:55:41,276 - filters.data_fill_filter - ERROR - Error downloading current metrics for susds: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/susds?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:55:41,279 - filters.data_fill_filter - INFO - ✓ Successfully processed susds
+2025-11-13 00:55:51,280 - filters.data_fill_filter - INFO - Processing internet-computer - Internet Computer
+2025-11-13 00:55:52,118 - filters.data_fill_filter - ERROR - Error downloading historical data for internet-computer: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/internet-computer/ohlc?vs_currency=usd&days=365
+2025-11-13 00:55:52,941 - filters.data_fill_filter - ERROR - Error downloading current metrics for internet-computer: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/internet-computer?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:55:52,943 - filters.data_fill_filter - INFO - ✓ Successfully processed internet-computer
+2025-11-13 00:56:02,944 - filters.data_fill_filter - INFO - Processing bittensor - Bittensor
+2025-11-13 00:56:03,822 - filters.data_fill_filter - ERROR - Error downloading historical data for bittensor: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bittensor/ohlc?vs_currency=usd&days=365
+2025-11-13 00:56:04,664 - filters.data_fill_filter - ERROR - Error downloading current metrics for bittensor: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bittensor?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:56:04,666 - filters.data_fill_filter - INFO - ✓ Successfully processed bittensor
+2025-11-13 00:56:14,667 - filters.data_fill_filter - INFO - Processing paypal-usd - PayPal USD
+2025-11-13 00:56:15,756 - filters.data_fill_filter - ERROR - Error downloading historical data for paypal-usd: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/paypal-usd/ohlc?vs_currency=usd&days=365
+2025-11-13 00:56:16,645 - filters.data_fill_filter - ERROR - Error downloading current metrics for paypal-usd: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/paypal-usd?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 00:56:16,648 - filters.data_fill_filter - INFO - ✓ Successfully processed paypal-usd
+2025-11-13 00:56:26,649 - filters.data_fill_filter - INFO - Processing near - NEAR Protocol
+2025-11-13 00:56:29,161 - utils.csv_manager - INFO - Saved 92 historical records for near
+2025-11-13 00:56:29,166 - utils.csv_manager - INFO - Saved 1 metrics records for near
+2025-11-13 00:56:29,166 - filters.data_fill_filter - INFO - ✓ Successfully processed near
+2025-11-13 00:56:39,166 - filters.data_fill_filter - INFO - Data fill completed: 50 successful, 0 errors
+2025-11-13 00:56:39,166 - __main__ - INFO - ✅ Filter 3 completed: Data download finished
+2025-11-13 00:56:39,166 - utils.timer - INFO - Complete Data Processing Pipeline completed in 615.50 seconds
+2025-11-13 00:56:39,166 - __main__ - INFO - 🎉 Pipeline completed successfully!
+2025-11-13 00:56:39,166 - __main__ - INFO - 
+📊 DATA STORAGE SUMMARY
+2025-11-13 00:56:39,168 - __main__ - INFO - ======================
+2025-11-13 00:56:39,168 - __main__ - INFO - Symbol files: 1
+2025-11-13 00:56:39,168 - __main__ - INFO - Historical data files: 18
+2025-11-13 00:56:39,169 - __main__ - INFO - Metrics files: 17
+2025-11-13 01:12:54,904 - __main__ - INFO - Starting Crypto Exchange Data Processing Pipeline
+2025-11-13 01:12:54,905 - utils.timer - INFO - Starting Complete Pipeline...
+2025-11-13 01:12:54,905 - __main__ - INFO - FILTER 1: Downloading symbol list
+2025-11-13 01:12:54,905 - filters.symbol_filter - INFO - Starting symbol filter: Fetching top cryptocurrencies
+2025-11-13 01:12:54,918 - filters.symbol_filter - INFO - Using existing symbols: 50 cryptocurrencies
+2025-11-13 01:12:54,918 - __main__ - INFO - Filter 1 completed: 50 symbols
+2025-11-13 01:12:54,918 - __main__ - INFO - FILTER 2: Checking existing data dates
+2025-11-13 01:12:54,918 - filters.date_check_filter - INFO - Starting date check filter
+2025-11-13 01:12:54,983 - filters.date_check_filter - INFO - Date check completed: 32/50 need updates
+2025-11-13 01:12:54,983 - __main__ - INFO - Filter 2 completed: Date checking finished
+2025-11-13 01:12:54,983 - __main__ - INFO - FILTER 3: Downloading missing data
+2025-11-13 01:12:54,983 - filters.data_fill_filter - INFO - Starting data fill filter
+2025-11-13 01:12:54,983 - filters.data_fill_filter - INFO - Processing tether - Tether
+2025-11-13 01:12:56,172 - filters.data_fill_filter - ERROR - Error downloading historical data for tether: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/tether/ohlc?vs_currency=usd&days=max
+2025-11-13 01:12:57,487 - utils.csv_manager - INFO - Saved 1 metrics records for tether
+2025-11-13 01:12:57,488 - filters.data_fill_filter - INFO - Successfully processed tether
+2025-11-13 01:13:07,488 - filters.data_fill_filter - INFO - Processing ripple - XRP
+2025-11-13 01:13:09,766 - filters.data_fill_filter - ERROR - Error downloading historical data for ripple: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/ripple/ohlc?vs_currency=usd&days=max
+2025-11-13 01:13:10,931 - utils.csv_manager - INFO - Saved 1 metrics records for ripple
+2025-11-13 01:13:10,933 - filters.data_fill_filter - INFO - Successfully processed ripple
+2025-11-13 01:13:20,934 - filters.data_fill_filter - INFO - Processing binancecoin - BNB
+2025-11-13 01:13:21,982 - filters.data_fill_filter - ERROR - Error downloading historical data for binancecoin: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/binancecoin/ohlc?vs_currency=usd&days=max
+2025-11-13 01:13:23,055 - utils.csv_manager - INFO - Saved 1 metrics records for binancecoin
+2025-11-13 01:13:23,055 - filters.data_fill_filter - INFO - Successfully processed binancecoin
+2025-11-13 01:13:33,056 - filters.data_fill_filter - INFO - Processing solana - Solana
+2025-11-13 01:13:34,257 - filters.data_fill_filter - ERROR - Error downloading historical data for solana: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/solana/ohlc?vs_currency=usd&days=max
+2025-11-13 01:13:35,073 - filters.data_fill_filter - ERROR - Error downloading current metrics for solana: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/solana?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 01:13:35,075 - filters.data_fill_filter - INFO - Successfully processed solana
+2025-11-13 01:13:45,077 - filters.data_fill_filter - INFO - Processing usd-coin - USDC
+2025-11-13 01:13:46,801 - filters.data_fill_filter - ERROR - Error downloading historical data for usd-coin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/usd-coin/ohlc?vs_currency=usd&days=max
+2025-11-13 01:13:47,639 - filters.data_fill_filter - ERROR - Error downloading current metrics for usd-coin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/usd-coin?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 01:13:47,641 - filters.data_fill_filter - INFO - Successfully processed usd-coin
+2025-11-13 01:13:57,643 - filters.data_fill_filter - INFO - Processing cardano - Cardano
+2025-11-13 01:13:58,464 - filters.data_fill_filter - ERROR - Error downloading historical data for cardano: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/cardano/ohlc?vs_currency=usd&days=max
+2025-11-13 01:13:59,337 - filters.data_fill_filter - ERROR - Error downloading current metrics for cardano: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/cardano?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 01:13:59,339 - filters.data_fill_filter - INFO - Successfully processed cardano
+2025-11-13 01:14:09,340 - filters.data_fill_filter - INFO - Processing figure-heloc - Figure Heloc
+2025-11-13 01:14:10,383 - filters.data_fill_filter - ERROR - Error downloading historical data for figure-heloc: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/figure-heloc/ohlc?vs_currency=usd&days=max
+2025-11-13 01:14:11,276 - filters.data_fill_filter - ERROR - Error downloading current metrics for figure-heloc: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/figure-heloc?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 01:14:11,293 - filters.data_fill_filter - INFO - Successfully processed figure-heloc
+2025-11-13 01:14:21,295 - filters.data_fill_filter - INFO - Processing wrapped-steth - Wrapped stETH
+2025-11-13 01:14:22,467 - filters.data_fill_filter - ERROR - Error downloading historical data for wrapped-steth: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/wrapped-steth/ohlc?vs_currency=usd&days=max
+2025-11-13 01:14:23,456 - filters.data_fill_filter - ERROR - Error downloading current metrics for wrapped-steth: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/wrapped-steth?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 01:14:23,458 - filters.data_fill_filter - INFO - Successfully processed wrapped-steth
+2025-11-13 01:14:33,459 - filters.data_fill_filter - INFO - Processing wrapped-bitcoin - Wrapped Bitcoin
+2025-11-13 01:14:35,782 - filters.data_fill_filter - ERROR - Error downloading historical data for wrapped-bitcoin: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/wrapped-bitcoin/ohlc?vs_currency=usd&days=max
+2025-11-13 01:14:36,819 - utils.csv_manager - INFO - Saved 1 metrics records for wrapped-bitcoin
+2025-11-13 01:14:36,820 - filters.data_fill_filter - INFO - Successfully processed wrapped-bitcoin
+2025-11-13 01:14:46,821 - filters.data_fill_filter - INFO - Processing wrapped-beacon-eth - Wrapped Beacon ETH
+2025-11-13 01:14:47,838 - filters.data_fill_filter - ERROR - Error downloading historical data for wrapped-beacon-eth: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/wrapped-beacon-eth/ohlc?vs_currency=usd&days=max
+2025-11-13 01:14:48,929 - utils.csv_manager - INFO - Saved 1 metrics records for wrapped-beacon-eth
+2025-11-13 01:14:48,929 - filters.data_fill_filter - INFO - Successfully processed wrapped-beacon-eth
+2025-11-13 01:14:58,930 - filters.data_fill_filter - INFO - Processing whitebit - WhiteBIT Coin
+2025-11-13 01:14:59,967 - filters.data_fill_filter - ERROR - Error downloading historical data for whitebit: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/whitebit/ohlc?vs_currency=usd&days=max
+2025-11-13 01:15:00,807 - filters.data_fill_filter - ERROR - Error downloading current metrics for whitebit: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/whitebit?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 01:15:00,809 - filters.data_fill_filter - INFO - Successfully processed whitebit
+2025-11-13 01:15:10,811 - filters.data_fill_filter - INFO - Processing usds - USDS
+2025-11-13 01:15:11,742 - filters.data_fill_filter - ERROR - Error downloading historical data for usds: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/usds/ohlc?vs_currency=usd&days=max
+2025-11-13 01:15:12,599 - filters.data_fill_filter - ERROR - Error downloading current metrics for usds: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/usds?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 01:15:12,602 - filters.data_fill_filter - INFO - Successfully processed usds
+2025-11-13 01:15:22,603 - filters.data_fill_filter - INFO - Processing binance-bridged-usdt-bnb-smart-chain - Binance Bridged USDT (BNB Smart Chain)
+2025-11-13 01:15:26,521 - filters.data_fill_filter - ERROR - Error downloading historical data for binance-bridged-usdt-bnb-smart-chain: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/binance-bridged-usdt-bnb-smart-chain/ohlc?vs_currency=usd&days=max
+2025-11-13 01:15:27,346 - filters.data_fill_filter - ERROR - Error downloading current metrics for binance-bridged-usdt-bnb-smart-chain: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/binance-bridged-usdt-bnb-smart-chain?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 01:15:27,349 - filters.data_fill_filter - INFO - Successfully processed binance-bridged-usdt-bnb-smart-chain
+2025-11-13 01:15:37,350 - filters.data_fill_filter - INFO - Processing stellar - Stellar
+2025-11-13 01:15:38,177 - filters.data_fill_filter - ERROR - Error downloading historical data for stellar: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/stellar/ohlc?vs_currency=usd&days=max
+2025-11-13 01:15:38,981 - filters.data_fill_filter - ERROR - Error downloading current metrics for stellar: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/stellar?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 01:15:38,985 - filters.data_fill_filter - INFO - Successfully processed stellar
+2025-11-13 01:15:48,986 - filters.data_fill_filter - INFO - Processing wrapped-eeth - Wrapped eETH
+2025-11-13 01:15:50,004 - filters.data_fill_filter - ERROR - Error downloading historical data for wrapped-eeth: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/wrapped-eeth/ohlc?vs_currency=usd&days=max
+2025-11-13 01:15:50,821 - filters.data_fill_filter - ERROR - Error downloading current metrics for wrapped-eeth: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/wrapped-eeth?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 01:15:50,824 - filters.data_fill_filter - INFO - Successfully processed wrapped-eeth
+2025-11-13 01:16:00,825 - filters.data_fill_filter - INFO - Processing leo-token - LEO Token
+2025-11-13 01:16:02,767 - filters.data_fill_filter - ERROR - Error downloading historical data for leo-token: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/leo-token/ohlc?vs_currency=usd&days=max
+2025-11-13 01:16:03,882 - utils.csv_manager - INFO - Saved 1 metrics records for leo-token
+2025-11-13 01:16:03,883 - filters.data_fill_filter - INFO - Successfully processed leo-token
+2025-11-13 01:16:13,883 - filters.data_fill_filter - INFO - Processing litecoin - Litecoin
+2025-11-13 01:16:15,000 - filters.data_fill_filter - ERROR - Error downloading historical data for litecoin: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/litecoin/ohlc?vs_currency=usd&days=max
+2025-11-13 01:16:16,046 - utils.csv_manager - INFO - Saved 1 metrics records for litecoin
+2025-11-13 01:16:16,047 - filters.data_fill_filter - INFO - Successfully processed litecoin
+2025-11-13 01:16:26,048 - filters.data_fill_filter - INFO - Processing coinbase-wrapped-btc - Coinbase Wrapped BTC
+2025-11-13 01:16:27,113 - filters.data_fill_filter - ERROR - Error downloading historical data for coinbase-wrapped-btc: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/coinbase-wrapped-btc/ohlc?vs_currency=usd&days=max
+2025-11-13 01:16:28,100 - filters.data_fill_filter - ERROR - Error downloading current metrics for coinbase-wrapped-btc: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/coinbase-wrapped-btc?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 01:16:28,102 - filters.data_fill_filter - INFO - Successfully processed coinbase-wrapped-btc
+2025-11-13 01:16:38,103 - filters.data_fill_filter - INFO - Processing hedera-hashgraph - Hedera
+2025-11-13 01:16:38,964 - filters.data_fill_filter - ERROR - Error downloading historical data for hedera-hashgraph: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/hedera-hashgraph/ohlc?vs_currency=usd&days=max
+2025-11-13 01:16:39,830 - filters.data_fill_filter - ERROR - Error downloading current metrics for hedera-hashgraph: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/hedera-hashgraph?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 01:16:39,834 - filters.data_fill_filter - INFO - Successfully processed hedera-hashgraph
+2025-11-13 01:16:49,835 - filters.data_fill_filter - INFO - Processing sui - Sui
+2025-11-13 01:16:50,756 - filters.data_fill_filter - ERROR - Error downloading historical data for sui: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/sui/ohlc?vs_currency=usd&days=max
+2025-11-13 01:16:51,580 - filters.data_fill_filter - ERROR - Error downloading current metrics for sui: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/sui?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 01:16:51,583 - filters.data_fill_filter - INFO - Successfully processed sui
+2025-11-13 01:17:01,584 - filters.data_fill_filter - INFO - Processing the-open-network - Toncoin
+2025-11-13 01:17:03,454 - filters.data_fill_filter - ERROR - Error downloading historical data for the-open-network: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/the-open-network/ohlc?vs_currency=usd&days=max
+2025-11-13 01:17:04,311 - filters.data_fill_filter - ERROR - Error downloading current metrics for the-open-network: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/the-open-network?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 01:17:04,315 - filters.data_fill_filter - INFO - Successfully processed the-open-network
+2025-11-13 01:17:14,315 - filters.data_fill_filter - INFO - Processing polkadot - Polkadot
+2025-11-13 01:17:15,169 - filters.data_fill_filter - ERROR - Error downloading historical data for polkadot: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/polkadot/ohlc?vs_currency=usd&days=max
+2025-11-13 01:17:15,977 - filters.data_fill_filter - ERROR - Error downloading current metrics for polkadot: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/polkadot?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 01:17:15,979 - filters.data_fill_filter - INFO - Successfully processed polkadot
+2025-11-13 01:17:25,980 - filters.data_fill_filter - INFO - Processing uniswap - Uniswap
+2025-11-13 01:17:26,907 - filters.data_fill_filter - ERROR - Error downloading historical data for uniswap: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/uniswap/ohlc?vs_currency=usd&days=max
+2025-11-13 01:17:27,796 - filters.data_fill_filter - ERROR - Error downloading current metrics for uniswap: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/uniswap?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 01:17:27,798 - filters.data_fill_filter - INFO - Successfully processed uniswap
+2025-11-13 01:17:37,800 - filters.data_fill_filter - INFO - Processing canton-network - Canton
+2025-11-13 01:17:39,866 - filters.data_fill_filter - ERROR - Error downloading historical data for canton-network: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/canton-network/ohlc?vs_currency=usd&days=max
+2025-11-13 01:17:40,941 - utils.csv_manager - INFO - Saved 1 metrics records for canton-network
+2025-11-13 01:17:40,941 - filters.data_fill_filter - INFO - Successfully processed canton-network
+2025-11-13 01:17:50,943 - filters.data_fill_filter - INFO - Processing dai - Dai
+2025-11-13 01:17:52,505 - filters.data_fill_filter - ERROR - Error downloading historical data for dai: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/dai/ohlc?vs_currency=usd&days=max
+2025-11-13 01:17:53,621 - utils.csv_manager - INFO - Saved 1 metrics records for dai
+2025-11-13 01:17:53,621 - filters.data_fill_filter - INFO - Successfully processed dai
+2025-11-13 01:18:03,622 - filters.data_fill_filter - INFO - Processing ethena-staked-usde - Ethena Staked USDe
+2025-11-13 01:18:05,401 - filters.data_fill_filter - ERROR - Error downloading historical data for ethena-staked-usde: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/ethena-staked-usde/ohlc?vs_currency=usd&days=max
+2025-11-13 01:18:06,495 - utils.csv_manager - INFO - Saved 1 metrics records for ethena-staked-usde
+2025-11-13 01:18:06,495 - filters.data_fill_filter - INFO - Successfully processed ethena-staked-usde
+2025-11-13 01:18:16,496 - filters.data_fill_filter - INFO - Processing world-liberty-financial - World Liberty Financial
+2025-11-13 01:18:17,517 - filters.data_fill_filter - ERROR - Error downloading historical data for world-liberty-financial: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/world-liberty-financial/ohlc?vs_currency=usd&days=max
+2025-11-13 01:18:18,336 - filters.data_fill_filter - ERROR - Error downloading current metrics for world-liberty-financial: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/world-liberty-financial?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 01:18:18,339 - filters.data_fill_filter - INFO - Successfully processed world-liberty-financial
+2025-11-13 01:18:28,340 - filters.data_fill_filter - INFO - Processing usdt0 - USDT0
+2025-11-13 01:18:44,398 - filters.data_fill_filter - ERROR - Error downloading historical data for usdt0: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/usdt0/ohlc?vs_currency=usd&days=max
+2025-11-13 01:18:45,350 - filters.data_fill_filter - ERROR - Error downloading current metrics for usdt0: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/usdt0?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 01:18:45,354 - filters.data_fill_filter - INFO - Successfully processed usdt0
+2025-11-13 01:18:55,355 - filters.data_fill_filter - INFO - Processing susds - sUSDS
+2025-11-13 01:18:56,202 - filters.data_fill_filter - ERROR - Error downloading historical data for susds: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/susds/ohlc?vs_currency=usd&days=max
+2025-11-13 01:18:57,026 - filters.data_fill_filter - ERROR - Error downloading current metrics for susds: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/susds?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 01:18:57,028 - filters.data_fill_filter - INFO - Successfully processed susds
+2025-11-13 01:19:07,029 - filters.data_fill_filter - INFO - Processing internet-computer - Internet Computer
+2025-11-13 01:19:14,892 - filters.data_fill_filter - ERROR - Error downloading historical data for internet-computer: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/internet-computer/ohlc?vs_currency=usd&days=max
+2025-11-13 01:19:16,305 - filters.data_fill_filter - ERROR - Error downloading current metrics for internet-computer: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/internet-computer?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false
+2025-11-13 01:19:16,307 - filters.data_fill_filter - INFO - Successfully processed internet-computer
+2025-11-13 01:19:26,308 - filters.data_fill_filter - INFO - Processing bittensor - Bittensor
+2025-11-13 01:19:27,762 - filters.data_fill_filter - ERROR - Error downloading historical data for bittensor: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/bittensor/ohlc?vs_currency=usd&days=max
+2025-11-13 01:19:28,900 - utils.csv_manager - INFO - Saved 1 metrics records for bittensor
+2025-11-13 01:19:28,900 - filters.data_fill_filter - INFO - Successfully processed bittensor
+2025-11-13 01:19:38,902 - filters.data_fill_filter - INFO - Processing paypal-usd - PayPal USD
+2025-11-13 01:19:39,904 - filters.data_fill_filter - ERROR - Error downloading historical data for paypal-usd: 401 Client Error: Unauthorized for url: https://api.coingecko.com/api/v3/coins/paypal-usd/ohlc?vs_currency=usd&days=max
+2025-11-13 01:19:40,953 - utils.csv_manager - INFO - Saved 1 metrics records for paypal-usd
+2025-11-13 01:19:40,955 - filters.data_fill_filter - INFO - Successfully processed paypal-usd
+2025-11-13 01:19:50,955 - filters.data_fill_filter - INFO - Data fill completed: 32 successful
+2025-11-13 01:19:50,955 - __main__ - INFO - Filter 3 completed: Data download finished
+2025-11-13 01:19:50,955 - utils.timer - INFO - Complete Pipeline completed in 416.05 seconds

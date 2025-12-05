@@ -1,0 +1,3 @@
+date,price,volume_24h,high_24h,low_24h,market_cap,exchanges
+2025-11-20,0.09259,17161251,0.094757,0.085331,32162469,
+2025-11-27,0.09747,26492960,0.098892,0.093974,33956627,"['Phemex', 'Toobit', 'OrangeX', 'Gate', 'XT.COM']"

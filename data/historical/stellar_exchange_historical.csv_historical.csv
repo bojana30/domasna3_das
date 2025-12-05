@@ -1,0 +1,15 @@
+date,exchange,base,target,volume,last_price,bid_ask_spread,crypto_id,crypto_name
+2025-11-13,coinbase exchange,XLM,USD,37260825.86578318,0.27752,0.015129,stellar,Stellar
+2025-11-13,binance,XLM,USDT,50119030.0,0.2777,0.03601,stellar,Stellar
+2025-11-13,binance,XLM,USDC,11708307.0,0.2778,0.03601,stellar,Stellar
+2025-11-13,binance,XLM,ETH,506403.0,8.135e-05,0.024576,stellar,Stellar
+2025-11-13,binance,XLM,EUR,588325.0,0.2396,0.041719,stellar,Stellar
+2025-11-13,coinbase exchange,XLM,EUR,398579.0,0.23945,0.035051,stellar,Stellar
+2025-11-13,binance,XLM,TRY,538334.0,11.74,0.051068,stellar,Stellar
+2025-11-13,binance,XLM,FDUSD,492711.0,0.2775,0.071788,stellar,Stellar
+2025-11-13,binance us,XLM,USDT,128108.47816672681,0.2771,0.396396,stellar,Stellar
+2025-11-13,binance us,XLM,USD,17829.045815295816,0.2772,0.57554,stellar,Stellar
+2025-11-13,kraken,XLM,USD,4249955.26781308,0.277655,0.027734,stellar,Stellar
+2025-11-13,kraken,XLM,EUR,848776.04416898,0.239066,0.063837,stellar,Stellar
+2025-11-13,binance,XLM,JPY,210479.5,42.96,0.092851,stellar,Stellar
+2025-11-13,binance,XLM,BTC,1002722.0,2.73e-06,0.364964,stellar,Stellar
